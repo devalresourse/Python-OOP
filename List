@@ -2,9 +2,20 @@ cars = ['Tesla', 'Benz', 'Honda']
 cars.append('Toyota')
 print('This is my' +  " " +(cars[2]))
 
+
 invitation = ['Tunde', 'Akin', 'Toyosi']
 print(invitation);
 print('I will like to' + " " +(invitation[0]) + " " + 'for dinner')
+
+invitation.sort()
+print(invitation )
+#add more to invitation by using append
+invitation.append('Weny')
+print(invitation )
+
+#len function to know the numbers of element in the array
+print(len(invitation))
+
 
 
 
